@@ -6,7 +6,7 @@ for(item of buttons){
     item.addEventListener('click', (e) => {
         buttonText = e.target.innerText;
         // console.log('Button Text is ', buttonText);
-        if(buttonText == '+' || buttonText == '-' ||buttonText == '×' ||buttonText == '÷' ||buttonText == '%'){
+        if(buttonText == '+' || buttonText == '-' || buttonText == '×' || buttonText == '/' || buttonText == '%'){
             if(buttonText == '×'){
                 buttonText = '*';
             }
@@ -16,9 +16,6 @@ for(item of buttons){
         }
         else if(buttonText == '×'){
             buttonText = '*';
-        }
-        else if(buttonText == '+'){
-            buttonText = '/';
         }
         else if(buttonText == 'AC'){
             display.innerText = '';
