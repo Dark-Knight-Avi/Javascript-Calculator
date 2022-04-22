@@ -1,0 +1,90 @@
+/* CSS Utility */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Body */
+body{
+    background-color: #959595;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container{
+    border: 2px solid black;
+    height: 550px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Rows */
+.row{
+    width: 100%;
+    height: 58px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Button */
+.btn{
+    height: 100%;
+    width: 58px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    color: #F1F2F2;
+    font-size: 35px;
+    cursor: pointer;
+}
+.btn:active{
+    opacity: 0.8;
+}
+.btn-x{
+    background-color: #A0A0A0;
+    font-size: 22px;
+    color: #333333;
+}
+.btn-y{
+    background-color: #F69906;
+}
+.btn-z{
+    width: 134px;
+    padding-right: 76px;
+}
+
+/* Input */
+.row-1{
+    height: 28px;
+    flex-grow: 1;
+    color: grey;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.row-2{
+    height: 88px;
+    justify-content: flex-end;
+}
+#screen{
+    background: none;
+    outline: none;
+    border: none;
+    color: #F1F2F2;
+    text-align-last: right;
+    caret-color: transparent;
+    font-size: 113px;
+    width: 100%;
+    overflow: hidden;
+}
