@@ -17,6 +17,9 @@ for(item of buttons){
         else if(buttonText == '×'){
             buttonText = '*';
         }
+        else if(buttonText == '+'){
+            buttonText = '/';
+        }
         else if(buttonText == 'AC'){
             display.innerText = '';
             screen.value = '';
